@@ -1,0 +1,22 @@
+/* #TOAST */
+.toast {position:absolute;z-index:999;left:50%;transform:translateX(-50%);box-shadow:0 5px 10px var(--rg2);background:#fff;border-radius:5px;min-width:300px;max-width:500px;display:flex;justify-content:space-between;padding:0 10px 0 20px;overflow:hidden;transition:.5s}
+.toastc {position:absolute;top:0;left:0;height:100%;width:5px}
+.toastc div {height:100%;width:100%;display:none}
+.toastc1 {background:#2BDE3F} /* green */
+.toastc2 {background:#1D72F3} /* blue */
+.toastc3 {background:#FFC007} /* yellow */
+.toastc4 {background:#FF0D00} /* red */
+.toasti, .toastt, .toastx {display:flex;align-items:center;margin:15px 5px}
+.toasti div {display:none}
+.toasti div svg {width:25px;height:25px}
+.toasti1 svg {color:#2bde3f}
+.toasti2 svg {color:#1d72f3}
+.toasti3 svg {color:#ffc007}
+.toasti4 svg {color:#FF0D00}
+.toastt {flex-direction:column;width:calc(100% - 50px)}
+.toastt * {width:100%;text-align:left}
+.toastt h4 {color: #3e3e3e}
+.toastt p {font-size:15px;padding:5px 0;color:#949494}
+.toastx button {font-size:30px;color:#878787}
+/*.btn-ok {background:#779ECB}
+.btn-cancel {background:#D85261}*/
